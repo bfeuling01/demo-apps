@@ -1,8 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: <+artifact.image>
+  repository: registry.hub.docker.com/library/nginx
   pullPolicy: IfNotPresent
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
