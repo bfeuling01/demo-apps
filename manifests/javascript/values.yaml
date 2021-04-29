@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: registry.hub.docker.com/library/nginx
   pullPolicy: IfNotPresent
-  tag: latest
+  tag: stable
 
 imagePullSecrets: []
 nameOverride: ""
